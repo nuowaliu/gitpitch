@@ -5,9 +5,9 @@
 # What and Why?
 
   - Server-side scripting in JavaScript: alternative to php, asp, RoR
-  - Single thread execution: non-blocking
+  - Single thread execution: non-blocking   (single thread: one program that is running all the time to deal with the requests from all the clients. non-blocking means the case that the programe seat there and doing nothing while waiting for the input/output)
   - Not designed for compute-heavy applications
-  - Package manager npm claims to be largest ecosystem of open source libraries in the world.
+  - Package manager npm claims to be largest ecosystem of open source libraries in the world.  (npm: node package manager)
 
 
 # History
@@ -53,7 +53,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 
 - Use module http, based on CommonJS
-- Module = file
+- Module = file  模块
 - require returns a js object that contains the module components
 - modules are installed with npm if necessary (plus dependencies)
 - node starts its own web server rather than running as an apache module (like php often is)
