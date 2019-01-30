@@ -1,8 +1,10 @@
 
-# HTTP
+# HTTP - HyperText Transfer Protocol 超文本传输协议      （HTTPS 超文本传输安全协议）  
 
+protocol - sets of rules
+function of HTTP: how we get HTML from one computer to another
 
-### Possible responses from a web request
+### Possible responses from a web request  （from web server 网页服务器：Web服务器可以解析(handles)HTTP协议。当Web服务器接收到一个HTTP请求(request)，会返回一个HTTP响应）
 
 Responses include
 
@@ -24,12 +26,12 @@ How might requests be generated?
 
 ### Sources of requests
 
-- URL typed in by user
-- Hyperlink followed
-- Form submitted
-- Clicking in an image map
+- URL typed in by user  （URL: Unifotm Resource Locator 统一资源定位器,是WWW页的地址)
+- Hyperlink followed  (超链接）
+- Form submitted  （提交表格）
+- Clicking in an image map  (图像链接）
 - Image included in source file
-- Frameset or iframe in HTML source (can be recursive)
+- Frameset or iframe in HTML source (can be recursive)   
 - Following a redirection (including 301 error)
 - Javascript execution (triggered by mouseover etc)
 - Flash execution (or other plug-in e.g. pdf)
@@ -43,7 +45,7 @@ Response to request may be used to update or replace some or all of a web page.
 
 
 -  Underlies many aspects of the web
--  Based around sockets (usually port 80 for web pages)
+-  Based around sockets (usually port 80 for web pages i.e. http)     （making connection from one machine to another, two-way communication, need to specify IP address and port code)    **Note**: Internet is connections between a bunch of computers with networking staff and WEB is an application that runs on the Internet.
 -  Fairly stable:
     - HTTP 0.9 (1991)
     - HTTP 1.0 (1996)
@@ -95,7 +97,7 @@ Some sites require https (e.g. www.dur.ac.uk)
 Headers can include cookie values
 
 
-### Response
+### Response (from a server)
 
 
 Response Codes
