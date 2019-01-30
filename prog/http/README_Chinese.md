@@ -100,7 +100,7 @@ Headers can include cookie values
 ### Response (from a server)
 
 
-Response Codes
+Response Codes (状态码）
 
 - __100-199__ Informational (e.g. continue). Client should respond
 - __200-299__ Successful
