@@ -100,7 +100,7 @@ console.log('Program done');
 
 # Routing requests
 
-- Variables can be GET-encoded
+- Variables can be GET-encoded (e.g the ? in URL, variable name is right after it and the value is right afte the = symbol)
 - In REST APIs they are often included in the URL directly (without question marks)
 - E.g. use [twitter API](https://developer.twitter.com/en/docs/api-reference-index)
 - We want to use routing to pick bits out of the URL for this in nodejs
@@ -114,7 +114,7 @@ console.log('Program done');
 - Uses [semantic versioning](http://semver.org)
   - Code should have public API by version
   - Version is X.Y.Z
-  - X = major version, Y = minor version, Z = patch
+  - X = major version, Y = minor version, Z = patch while fix the bugs then increase z by 1, if add the functionality then increase Y by 1. Lastly if change the code to a completely new version, then change X)
   - Never change code within version once released
 
 
