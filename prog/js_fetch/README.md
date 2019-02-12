@@ -54,6 +54,14 @@ window.addEventListener('click', function(event){
 ```
 Note use of => for anonymous function declaration
 
+Notes: 
+ - .then is to deal with everyhing that respond from the server.
+ - var handler = (response => response.text())
+  - var handler = function(response{
+    return repsonse.text()
+    }
+
+
 
 ## Fetch server JS
 ```
